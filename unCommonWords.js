@@ -1,3 +1,11 @@
+// 884. Uncommon Words from Two Sentences
+
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @return {string[]}
+ */
+
 var uncommonFromSentences = function(s1, s2) {
     const map = new Map();
     let i = 0;
